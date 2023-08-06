@@ -1,23 +1,12 @@
 # notes-dev-api
 
-![GitHub repo size](https://img.shields.io/github/repo-size/engnandogabriel/notes-dev-ap?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/engnandogabriel/notes-dev-ap?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/engnandogabriel/notes-dev-ap?style=for-the-badge)
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/engnandogabriel/notes-dev-ap?style=for-the-badge)
-![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/engnandogabriel/notes-dev-ap?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/engnandogabriel/notes-dev-api?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/engnandogabriel/notes-dev-api?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/engnandogabriel/notes-dev-api?style=for-the-badge)
+![Bitbucket open issues](https://img.shields.io/bitbucket/issues/engnandogabriel/notes-dev-api?style=for-the-badge)
+![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/engnandogabriel/notes-dev-api?style=for-the-badge)
 
-<img src="imagem.png" alt="Exemplo imagem">
-
-> Projeto desenvolvido após a conclusão do curso de React-JS do Origamid. O projeto tem o intuito desenvolver uma rede social para cachorros como forma de
-> praticar os conhecimentos adquiridos durante o curso.
-
-### Ajustes e melhorias
-
-O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
-
-- [x] Otimização dos gráficos
-- [x] Sistema Responsivo
-- [ ] Implementar a função de "Esqueceu a senha"
+> Projeto de uma API REST desenvolvida em typescritp para gerenciar notas de usuários. Nesse sistema, o usuário pode criar uma conta, logar, criar, editar e excluir uma nota. 
 
 
 ## 💻 Pré-requisitos
@@ -27,13 +16,15 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 * Você instalou a versão 18.3 do node usada nesse projeto
 * Você tem uma máquina `<Windows / Linux / Mac>`. 
 
-## 🚀 Instalando rede-scoal
+## 🚀 Instalando notes-dev-api
 
-Para instalar o projeto <rede-social>, siga estas etapas:
+Para instalar o projeto <notes-dev-api>, siga estas etapas:
 
 Linux e macOS:
 * abra o projeto no vscode
+* cerfifica-se de aletar os dados do banco de dados para sua máquina local ou serviço externo do MongoDB
 * execute os comandos no terminal
+  
 ```
 npm install
 npm run dev
@@ -41,6 +32,7 @@ npm run dev
 
 Windows:
 * abra o projeto no vscode
+* cerfifica-se de aletar os dados do banco de dados para sua máquina local ou serviço externo do MongoDB
 * execute os comandos no terminal
 ```
 npm install
@@ -48,14 +40,9 @@ npm run dev
 ```
 
 ## 🔧Tecnologias utilizadas
-* [React](https://vitejs.dev/guide/) - Uma biblioteca JS para desenvolvimento de sites.
-* [ContextAPI](https://reactjs.org/docs/context.html) - permite gerenciar estados globais de aplicativos
-* [React-Router-Dom](https://reactrouter.com/en/main) - bbiblioteca usada resolver problemas de rotas para as páginas de um site e tornar o desenvolvimento muito mais simples e escalável
-* [Styled-Components](https://styled-components.com/) - biblioteca para estilização de sites com CSS
-* [Victory](https://formidable.com/open-source/victory/) - bibliota para geração de componentes com gráficos
-* [Axios](https://axios-http.com/ptbr/docs/intro) - biblioteca usada para consumir API (além dela, utilizou-se fetch)
-
-
+* [NodeJS] (https://nodejs.org/en)
+* [TypeScrtipt](https://www.typescriptlang.org/)
+* [MongoDB](https://www.mongodb.com/pt-br) - banco de dados não relacional
 
 # ✒️Autor
 
